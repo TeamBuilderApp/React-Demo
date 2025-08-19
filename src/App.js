@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 //Functional components are generally more concise and easier to read and understand, especially for simpler components.
@@ -9,6 +10,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <Header />
+      <Footer />
     </div>
   );
 }

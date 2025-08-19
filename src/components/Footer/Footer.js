@@ -1,14 +1,14 @@
 import React from 'react'
 
-//This is the main App Header.
+//This is the main App Footer.
 //Stateless components do not need access to any state or functionality. 
 //Stateless components do not call render() {.
-const Header = () => {
+const Footer = () => {
   return (
     <div className="App">
-        This is the HEADER
+        This is the FOOTER
     </div>
   );
 }
 
-export default Header;
+export default Footer;
