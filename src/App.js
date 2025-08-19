@@ -11,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <div><i className="fa fa-spinner fa-spin">no spinner but why</i></div>
       <Footer />
     </div>
   );
