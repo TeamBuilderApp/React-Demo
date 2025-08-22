@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router';
 import '../../Assets/Header.css'
 
 //This is the main App Header.
@@ -47,23 +48,18 @@ const Header = () => {
 
       <div className="navbar-menu" id="navMenu">
         <div className="navbar-start"></div>
-
         <div className="navbar-end">
           <div className="navbar-item">
-            <router-link to="/" className="navbar-item r-item">Home</router-link>
+            <Link to="/" className="navbar-item r-item">Home</Link>
           </div>
           <div className="navbar-item">
-            <router-link to="features" className="navbar-item r-item"
-              >Features</router-link
-            >
+            <Link to="features" className="navbar-item r-item">Features</Link>
           </div>
           <div className="navbar-item">
-            <router-link to="about" className="navbar-item r-item"
-              >About</router-link
-            >
+            <Link to="about" className="navbar-item r-item">About</Link>
           </div>
           <div className="navbar-item">
-            <router-link to="faq" className="navbar-item r-item">FAQ</router-link>
+            <Link to="faq" className="navbar-item r-item">FAQ</Link>
           </div>
           <div className="navbar-item">
             <p className="control">
