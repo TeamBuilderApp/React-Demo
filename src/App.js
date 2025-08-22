@@ -1,6 +1,6 @@
+import './Assets/App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import './App.css';
 
 //Functional components are generally more concise and easier to read and understand, especially for simpler components.
 //Hooks (like useState, useEffect, useContext, etc.) provide a way to add state and lifecycle features to functional components, eliminating the need for class-based lifecycle methods and this binding issues.

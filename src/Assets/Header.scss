@@ -1,0 +1,23 @@
+@use './mediaQuery.scss';
+
+.navbar {
+  background-color: #383838;
+  a:hover {
+    color: gray;
+  }
+}
+
+a.r-item {
+  color: #c1c1c1;
+  padding: 0.5rem 1.75rem;
+  @include mediaQuery.mobile {
+    color: gray;
+    &:hover {
+      background-color: #f1f1f1;
+    }
+  }
+}
+
+.navbar-burger span {
+  background-color: #c1c1c1;
+}

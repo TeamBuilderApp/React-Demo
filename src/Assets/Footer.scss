@@ -1,0 +1,11 @@
+@use './mediaQuery.scss';
+
+footer {
+  background-color: mediaQuery.$primary !important;
+  color: #fff;
+
+  .icon {
+    color: #fff;
+    margin-left: 20px;
+  }
+}

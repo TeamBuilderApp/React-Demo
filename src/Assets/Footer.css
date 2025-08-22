@@ -1,0 +1,47 @@
+/* sass:
+=mobile
+  @media screen and (max-width: $tablet - 1px)
+    @content
+
+=tablet
+  @media screen and (min-width: $tablet), print
+    @content
+
+=tablet-only
+  @media screen and (min-width: $tablet) and (max-width: $desktop - 1px)
+    @content
+
+=desktop
+  @media screen and (min-width: $desktop)
+    @content
+
+=desktop-only
+  @media screen and (min-width: $desktop) and (max-width: $widescreen - 1px)
+    @content
+
+
+// Path to Bulma's sass folder
+@use "bulma/sass" with (
+  $family-primary: '"Nunito", sans-serif',
+  $grey-dark: $brown,
+  $grey-light: $beige-light,
+  $primary: $purple,
+  $link: $pink,
+  $control-border-width: 2px,
+  $input-shadow: none
+);
+
+// Import the Google Font
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+
+*/
+footer {
+  background-color: #1EC9AC !important;
+  color: #fff;
+}
+footer .icon {
+  color: #fff;
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=Footer.css.map */
