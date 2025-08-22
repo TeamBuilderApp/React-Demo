@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './Assets/index.css';
-import '../node_modules/font-awesome/css/font-awesome.min.css';
 import App from './App.jsx';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
